@@ -1,18 +1,13 @@
-# ContextGraph-PoC
+ ContextGraph-PoC
 
-\# ContextGraph Proof of Concept
-
-
-
-This repository contains a proof of concept for ContextGraph.
+\ ContextGraph Proof of Concept
 
 
 
-ContextGraph is an application that will allow users to upload files and organize information into a knowledge graph. The saved information can later be accessed by AI applications through MCP.
+This repository contains a proof of concept for ContextGraph. ContextGraph is an application that will allow users to upload files and organize information into a knowledge graph. The saved information can later be accessed by AI applications through MCP.
 
 
-
-\## Proof of Concept
+\ Proof of Concept
 
 
 
@@ -32,8 +27,7 @@ This program:
 
 
 
-\## Technologies
-
+\- Technologies-
 
 
 \- Python
@@ -48,7 +42,7 @@ This program:
 
 
 
-\## Requirements
+\- Requirements-
 
 
 
@@ -58,34 +52,16 @@ This program:
 
 \- Neo4j Desktop
 
-\- Gemini API key
-
-
-
-\## Setup
-
-
-
-Create a virtual environment:
-
-
-
-```powershell
-
-python -m venv .venv
+\- Gemini API ke
 
 
 
 
-
-## MCP Server
+ MCP Server
 
 This proof of concept also includes an MCP server.
 
 The server provides a tool called `search_context`.
 This tool searches information stored in the ContextGraph knowledge graph.
 
-Start the MCP server:
 
-```powershell
-mcp run mcp_server.py --transport streamable-http
