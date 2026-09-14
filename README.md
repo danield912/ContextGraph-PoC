@@ -74,3 +74,18 @@ Create a virtual environment:
 
 python -m venv .venv
 
+
+
+
+
+## MCP Server
+
+This proof of concept also includes an MCP server.
+
+The server provides a tool called `search_context`.
+This tool searches information stored in the ContextGraph knowledge graph.
+
+Start the MCP server:
+
+```powershell
+mcp run mcp_server.py --transport streamable-http
