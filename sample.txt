@@ -1,0 +1,9 @@
+Daniel is a student at Temple University.
+
+Daniel is working on a software project called ContextGraph.
+
+ContextGraph allows users to upload files and organize the information into a knowledge graph.
+
+ContextGraph uses Graphiti and Neo4j.
+
+The project will use MCP so AI applications can search the saved information.
